@@ -1,89 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="46224" started-at="2020-06-05T21:57:57Z" finished-at="2020-06-05T21:58:44Z">
+  <suite name="Default suite" duration-ms="47052" started-at="2020-06-05T22:47:39Z" finished-at="2020-06-05T22:48:26Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="46224" started-at="2020-06-05T21:57:57Z" finished-at="2020-06-05T21:58:44Z">
-      <class name="com.Ecommerce.website.TestClasses.CompareProdAndCheckOutAsGuest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.Ecommerce.website.TestClasses.CompareProdAndCheckOutAsGuest@5f058f00]" name="setup" is-config="true" duration-ms="7770" started-at="2020-06-05T14:57:50Z" finished-at="2020-06-05T14:57:57Z">
+    <test name="Default test" duration-ms="47052" started-at="2020-06-05T22:47:39Z" finished-at="2020-06-05T22:48:26Z">
+      <class name="com.Ecommerce.website.TestClasses.SavedOrder">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Ecommerce.website.TestClasses.SavedOrder@5f058f00]" name="setup" is-config="true" duration-ms="6752" started-at="2020-06-05T15:47:32Z" finished-at="2020-06-05T15:47:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="guestCheckout()[pri:0, instance:com.Ecommerce.website.TestClasses.CompareProdAndCheckOutAsGuest@5f058f00]" name="guestCheckout" duration-ms="46187" started-at="2020-06-05T14:57:57Z" finished-at="2020-06-05T14:58:44Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to locate element: //div[@class='col-main']/p[3]/a
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
-System info: host: 'RAHUL-DELL-PC', ip: '192.168.0.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 16500, moz:profile: C:\Users\Rahul\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: af4c2af6-39a4-4959-8568-350a8ed7ad26
-*** Element info: {Using=xpath, value=//div[@class='col-main']/p[3]/a}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@class='col-main']/p[3]/a
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
-System info: host: 'RAHUL-DELL-PC', ip: '192.168.0.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 16500, moz:profile: C:\Users\Rahul\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: af4c2af6-39a4-4959-8568-350a8ed7ad26
-*** Element info: {Using=xpath, value=//div[@class='col-main']/p[3]/a}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:451)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:394)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)
-	at com.Ecommerce.website.HelperClasses.ReceiptWindow.printReceipt(ReceiptWindow.java:12)
-	at com.Ecommerce.website.TestClasses.CompareProdAndCheckOutAsGuest.guestCheckout(CompareProdAndCheckOutAsGuest.java:29)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method status="PASS" signature="orderFromCart()[pri:0, instance:com.Ecommerce.website.TestClasses.SavedOrder@5f058f00]" name="orderFromCart" duration-ms="47033" started-at="2020-06-05T15:47:39Z" finished-at="2020-06-05T15:48:26Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- guestCheckout -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Ecommerce.website.TestClasses.CompareProdAndCheckOutAsGuest@5f058f00]" name="tearDown" is-config="true" duration-ms="2277" started-at="2020-06-05T14:58:44Z" finished-at="2020-06-05T14:58:46Z">
+        </test-method> <!-- orderFromCart -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Ecommerce.website.TestClasses.SavedOrder@5f058f00]" name="tearDown" is-config="true" duration-ms="1688" started-at="2020-06-05T15:48:26Z" finished-at="2020-06-05T15:48:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.Ecommerce.website.TestClasses.CompareProdAndCheckOutAsGuest -->
+      </class> <!-- com.Ecommerce.website.TestClasses.SavedOrder -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
